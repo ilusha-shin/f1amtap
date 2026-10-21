@@ -11,7 +11,7 @@ f1amtap/
   cmd/f1amtap/main.go     # CLI + --gui entrypoint
   internal/gui/gui.go     # Gio UI (header, browse, start)
   chartgen/               # MIDI → chart conversion library
-  assets/                 # optional header_bg.png, logo.png
+  assets/                 # optional flamtap_logo.jpg
   build.bat / build.sh    # build binary into project root
 ```
 
@@ -66,8 +66,7 @@ Slate + cyan: header images, Browse dialogs, full-width Start.
 Optional assets (cwd = project root when you launch the binary from there):
 
 ```text
-assets/header_bg.png
-assets/logo.png
+assets/flamtap_logo.jpg
 ```
 
 ## Limitations
